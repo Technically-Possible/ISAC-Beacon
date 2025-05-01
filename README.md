@@ -22,7 +22,7 @@ This project is a modern, enhanced version of the original ISAC Beacon, designed
 ## 🧠 Hardware Used
 
 ### Microcontrollers & Communication
-- [Adafruit Feather ESP32 V2 w.FL Antenna](https://www.adafruit.com/product/5438) – BLE, Wi-Fi, STEMMA QT/Qwiic ready.
+- [Adafruit ESP32 Feather V2 w.FL Antenna - 8MB Flash + 2 MB PSRAM - STEMMA QT](https://www.adafruit.com/product/5438) – BLE, Wi-Fi, STEMMA QT/Qwiic ready.
 - [TTGO T-Beam v1.1 / v1.2](https://www.banggood.com/LILYGO-TTGO-T-Beam-v1_1-ESP32-LoRa-433-or-868-or-915Mhz-WiFi-GPS-NEO-6M-18650-WiFi-bluetooth-Board-Module-p-1609523.html) – LoRa mesh communication with GPS, running Meshtastic firmware.
 
 ### Sensors (All Qwiic/STEMMA QT)
