@@ -60,3 +60,42 @@ This project is a modern, enhanced version of the original ISAC Beacon, designed
   BLE ↔ Phone    NeoPixel   Speaker
              ↓
    Serial UART → TTGO T-Beam → LoRa Mesh
+```
+###🔋 Powering the System
+All devices powered by a shared 3.7V LiPo battery.
+
+Feather charges via USB-C.
+
+T-Beam can either share the same battery (via JST splitter) or be powered separately.
+
+###🔧 Software Stack
+Feather ESP32 V2:
+Arduino code for BLE communication.
+I²C sensor polling.
+NeoPixel and button control.
+Serial communication with T-Beam.
+T-Beam:
+Meshtastic firmware for LoRa messaging and location sharing.
+
+###🛠 Plug-and-Play Chain
+All sensors connected via STEMMA QT/Qwiic cables — no soldering required.
+Sensors can be daisy-chained directly.
+Multiplexer (optional) only needed if I²C address conflicts arise with additional sensors.
+
+###📲 Coming Soon
+Finalized Arduino code for Feather ESP32 V2.
+Updated wiring diagrams and pin assignments.
+3D printable case design optimized for the new hardware.
+Printable plug-and-play setup guide for assembly.
+
+###🧩 License
+Open hardware and firmware under MIT license. Fork, remix, and improve freely.
+
+###🙏 Acknowledgments
+Inspired by the original ISAC Beacon project by WedgeTheJedi, with adaptations for modern hardware, accessibility, and real-world mesh communication.
+
+###✅ Key Benefits
+No soldering required for all sensors and speaker.
+BLE + LoRa dual communication.
+Full environmental sensing including rare UV-C measurement.
+Expandable for future sensors or peripherals.
